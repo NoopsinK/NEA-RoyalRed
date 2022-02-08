@@ -24,7 +24,7 @@ public class Chest : Collectable
             collected = true;
             //change game component sprite to empty chest
             GetComponent<SpriteRenderer>().sprite = chest_open;
-            //doesn't seem to want to do this line... :(
+            //eventually this will actually give gold
             Debug.Log("Give " + goldAmount + " gold.");
         }
     }
